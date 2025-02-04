@@ -57,7 +57,7 @@ const network = {
  *   block streams on selected hosts:     {"type": "stream", "value": ".gstatic.com", "hosts": ["*"]}
  */
 
-{
+/*{
   network.hosts = () => caches.open(network.NAME).then(async cache => {
     const r = await cache.match(network.LIST);
     if (r) {
@@ -112,4 +112,4 @@ const network = {
       };
     };
   });
-}
+}*/
