@@ -32,7 +32,7 @@
   };
 
   // display forbidden icon for blocked hostnames
-  const icon = () => {
+ /* const icon = () => {
     if (chrome.declarativeContent) {
       chrome.declarativeContent.onPageChanged.removeRules(undefined, async () => {
         const hosts = await network.hosts();
@@ -55,7 +55,7 @@
         }]);
       });
     }
-  };
+  };*/
 
   // This list includes the list of rules to get blocked by this extension
   // The extension does not offer downloading resources included in this list
