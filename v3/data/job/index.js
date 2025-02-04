@@ -485,7 +485,7 @@ Promise.all([
     });
   }
 
-  let forbiddens = 0;
+ /* let forbiddens = 0;
   // remove forbidden links
   const blocked = await network.blocked();
   for (const [stream, o] of os.entries()) {
@@ -496,7 +496,7 @@ Promise.all([
     if (o.blocked.value) {
       forbiddens += 1;
     }
-  }
+  }*/
 
   const items = [...os.values()];
 
